@@ -1,4 +1,4 @@
-@media (max-width:250px) {
+@media (max-width:300px) {
     .nav-left {
         font-size: 1.5rem;
     }
@@ -118,6 +118,8 @@
     margin-top: 2rem;
 }
 }
+
+
 
 @media (max-width:500px){
     .dev-name{
