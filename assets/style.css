@@ -253,13 +253,6 @@ body {
     bottom: 11rem;
 }
 
-.chart-piller::before {
-    content: "Skill Name-->";
-    height: 0.5rem;
-    position: absolute;
-    color: var(--mainPointColor);
-    bottom: 0;
-}
 
 .skill-type {
     display: flex;
