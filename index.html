@@ -96,7 +96,7 @@
     <section class="contact-section" id="contact">
         <p class="contact-heading"><span class="importent-word">Contact</span> Me</p>
         <div class="contact-form-section">
-            <form action="./index.html" class="contact-form">
+            <form action="./index.html" method="post" class="contact-form" onsubmit="contact()">
                 <div class="form-name row">
                     <label for="Name" class="form-label">Name:&nbsp;</label>
                     <input type="text" name="name" placeholder="Enter your name" class="form-input" required>
@@ -129,7 +129,12 @@
 
 
 
-
+<script>
+    function contact(){
+        alert("This Form Not Working Now.");
+    }
+        
+</script>
 
 
 
